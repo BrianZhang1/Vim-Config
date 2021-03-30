@@ -36,6 +36,7 @@ set expandtab
 set visualbell
 set backspace=indent,eol,start
 set relativenumber
+set clipboard+=unnamedplus
 
 
 " netrw stuff
@@ -71,7 +72,6 @@ autocmd filetype elm nnoremap <F9> :w <bar> !elm reactor<CR>
 autocmd filetype elm inoremap <F9> <Esc>:w <bar> !elm reactor<CR>
 autocmd filetype java nnoremap <F9> :w <bar> :term java %<CR>
 autocmd filetype java inoremap <F9> <Esc>:w <bar> :term java %<CR>
-set clipboard+=unnamedplus
 
 
 " use <tab> for trigger completion and navigate to the next complete item
