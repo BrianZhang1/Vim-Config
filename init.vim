@@ -59,9 +59,8 @@ nmap <Leader>rn <Plug>(coc-rename)
 " Using <F9> to run files
 autocmd filetype cpp nnoremap <F9> :w <bar> :term g++ -Weffc++ -pedantic -O2 % -o %:r && ./%:r<CR>
 autocmd filetype cpp inoremap <F9> <Esc>:w <bar> :term g++ -Weffc++ -pedantic -O2 % -o %:r && ./%:r<CR>
-autocmd filetype python nnoremap <F9> :w <bar> term python3 %<CR>
-autocmd filetype python inoremap <F9> <ESC>:w <bar> term python3 %<CR>
-autocmd filetype python command F !flask run
+autocmd filetype python nnoremap <F9> :w <bar> term python %<CR>
+autocmd filetype python inoremap <F9> <ESC>:w <bar> term python %<CR>
 autocmd filetype html nnoremap <F9> :w <bar> !open %<CR>
 autocmd filetype html inoremap <F9> <Esc>:w <bar> !open %<CR>
 autocmd filetype javascript nnoremap <F9> :w <bar> !npm start<CR>
