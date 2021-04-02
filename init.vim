@@ -37,7 +37,7 @@ set visualbell
 set backspace=indent,eol,start
 set relativenumber
 set clipboard+=unnamedplus
-
+let g:python3_host_prog='C:\Users\Brian\AppData\Local\Programs\Python\Python39\python.exe'
 
 " netrw stuff
 let g:netrw_bufsettings = 'noma nomod rnu nobl nowrap ro'
